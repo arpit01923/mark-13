@@ -185,7 +185,7 @@ function reverseString(str) {
   let resultDiv = document.querySelector('#i3');
   
   function clickHandler(e) {
-      console.log("clike");
+      console.log("click");
     let bdayString = bdayInput.value;
   
     if (bdayString !== '') {
